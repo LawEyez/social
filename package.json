@@ -1,0 +1,21 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "social platform",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "node --experimental-modules test.mjs",
+    "start": "node --experimental-modules app.mjs",
+    "server": "nodemon --experimental-modules app.mjs"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.1.1"
+  }
+}
